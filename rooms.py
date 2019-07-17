@@ -1,0 +1,2 @@
+chat = set()
+connections = set()

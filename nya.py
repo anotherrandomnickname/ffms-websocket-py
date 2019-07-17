@@ -310,6 +310,15 @@ async def unregister(ws):
     print('websocket unregistered!')
     CONNECTIONS.remove(ws)
 
+
+class ChatClass
+    def __init__(self):
+        threading.Thread.__init__(self)
+        self.event = threading.Event()
+
+    def run(self):
+        while not self.event.is_set()
+
 # Websocket thread
 async def websocket(websocket, path):
     await register(websocket)
